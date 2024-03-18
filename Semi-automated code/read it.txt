@@ -1,0 +1,24 @@
+1. This program can only be used by friends who log in to Binance using an Apple ID.
+
+2. There are some places where "＃fix" is indicated at the end and needs to be modified by yourself (there is three places, lines 30, 45, and 99).
+
+3. After logging in, you need to enter the Apple ID verification code manually; it cannot be automated (you have 60 seconds to enter).
+
+4. Sometimes there is a two-step verification. If encountered during execution, it will switch to receiving SMS messages via the mobile phone number, and manual input is required (you have 60 seconds to enter).
+
+5. The folder path for storing the codes should be set to the folder where the txt file is located; there is no need to specify the .txt file itself.
+
+6. The program will detect whether there are consecutive 8-digit alphanumeric codes in the .txt file. If there are any, it will input them into the field and claim the rewards. After claiming, it will delete codes from the .txt file.
+
+7. If all codes in the txt file have been claimed, you can paste more codes into .txt file, and the program will continue to claim rewards (for example, if there are ten codes in the txt file, you can open the txt file and paste another ten codes).
+
+8. The program is designed with an infinite loop; you need to manually stop the program.
+
+Hope everyone success!
+If there are any bugs or improvement in the program, please let me know!
+
+Suggestions:
+Good internet connection is necessary; otherwise, the program may lag.
+Do not claim too many red packets at once to avoid being detected as using a bot (it may be considered too fast to be human-operated, and sometimes it may get stuck getting into Binance during a long time execution).
+
+Someone wondering that if there is a bot which can claim rewards without time costs, so I decided to write it. Although it's not fully automated, it can still save a lot of time, I hope everyone can have fun with it. Even though you may not earn much money by claiming this kind of small amount rewards, it's still enjoyable. This is my first time sharing something like this; if there's anything unclear, please let me know.
